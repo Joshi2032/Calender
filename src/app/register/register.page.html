@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!--<ion-title size="large">Login</ion-title>-->
+    </ion-toolbar>
+  </ion-header>
+  <ion-footer>
+    <div class="centered-content">
+      <img src="../assets/img/logo_transparent.png" alt="logo" class="logo">
+    </div>
+  </ion-footer>
+  <ion-content>
+    <div class="card">
+      <div class="card-content">
+        <ion-icon name="contact"></ion-icon>
+        <ion-input type="email" placeholder="Enter your Name" required> </ion-input>
+        <ion-input type="email" placeholder="Enter your Email" required> </ion-input>
+        <ion-input type="email" placeholder="Enter your Password" required> </ion-input>
+        <ion-input type="email" placeholder="Confirm Password" required> </ion-input>
+        <ion-button [routerLink]="['/main']">After</ion-button>
+      </div>
+    </div>
+  </ion-content>  
+</ion-content>

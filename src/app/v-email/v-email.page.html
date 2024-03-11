@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>vEmail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <!--<ion-title size="large">Login</ion-title>-->
+    </ion-toolbar>
+  </ion-header>
+  <ion-footer>
+    <div class="centered-content">
+      <img src="../assets/img/logo_transparent.png" alt="logo" class="logo">
+    </div>
+  </ion-footer>
+  <ion-content>
+    <div class="centered-content">
+      <ion-input type="email" placeholder="Enter your email" required [(ngModel)]="email"></ion-input>
+      <ion-button [routerLink]="['/v-password']" [disabled]="!validarEmail()">Next</ion-button>
+      <label><a href="register">Don't have an account? Create one here</a></label>
+    </div>
+  </ion-content>
+      
+</ion-content>
+
