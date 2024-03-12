@@ -40,6 +40,10 @@ export const routes: Routes = [
     path: 'calender',
     loadComponent: () => import('./calender/calender.page').then( m => m.CalenderPage)
   },
+  {
+    path: 'prueba-c',
+    loadComponent: () => import('./prueba-c/prueba-c.page').then( m => m.PruebaCPage)
+  },
 ];
 
 /*import { Routes } from '@angular/router';

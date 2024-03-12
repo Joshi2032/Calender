@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Calender</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment>
+    <ion-segment-button value="Schedule">Schedule</ion-segment-button>
+    <ion-segment-button value="Tasks">Tasks</ion-segment-button>
+    <ion-segment-button value="Notes">Notes</ion-segment-button>
+  </ion-segment>
+  <ion-datetime presentation="date" value="20-24-01-01" [highlightedDates]="highlightedDates"></ion-datetime>
+  <ion-datetime presentation="date" value="2024-01-01" max="2024-01-03" [highlightedDates]="highlightedDates"></ion-datetime>
+
+</ion-content>
