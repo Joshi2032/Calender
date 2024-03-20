@@ -8,25 +8,24 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: './prueba-c.page.html',
   styleUrls: ['./prueba-c.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
+  imports: [IonicModule, CommonModule, FormsModule],
 })
 export class PruebaCPage implements OnInit {
+  highlightedDates = [
+    {
+      date: '2024-01-01',
+      textColor: '#800080',
+      backgroundColor: '#ffc0cb',
+    },
+    {
+      date: '2024-01-02',
+      textColor: '#800080',
+      backgroundColor: '#ffc0cb',
+    },
+    {},
+  ];
 
-  highlightedDates=[{
-date:'2024-01-01', 
-textColor: '#800080',
-backgroundColor: '#ffc0cb'
-  },
-  {
+  constructor() {}
 
-  },
-  {
-
-  }
-];
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
