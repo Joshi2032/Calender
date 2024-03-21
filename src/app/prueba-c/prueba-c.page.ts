@@ -2,18 +2,29 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+<<<<<<< HEAD
 import { addIcons } from 'ionicons';
 import { personCircle } from 'ionicons/icons';
 import { RouterLink } from '@angular/router';
+=======
+
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
 @Component({
   selector: 'app-prueba-c',
   templateUrl: './prueba-c.page.html',
   styleUrls: ['./prueba-c.page.scss'],
   standalone: true,
+<<<<<<< HEAD
   imports: [IonicModule, CommonModule, FormsModule, RouterLink]
 })
 export class PruebaCPage implements OnInit {
 
+=======
+  imports: [IonicModule, CommonModule, FormsModule],
+})
+export class PruebaCPage implements OnInit {
+  
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
   enero = [
     {
       date: '2024-01-22',
@@ -155,6 +166,7 @@ export class PruebaCPage implements OnInit {
   junio = [
     {
       date: '2024-06-24',
+<<<<<<< HEAD
       backgroundColor: '#001d3d',
     },
     {
@@ -172,6 +184,25 @@ export class PruebaCPage implements OnInit {
     {
       date: '2024-06-28',
       backgroundColor: '#001d3d',
+=======
+      backgroundColor: '#ffa500',
+    },
+    {
+      date: '2024-06-25',
+      backgroundColor: '#ffa500',
+    },
+    {
+      date: '2024-06-26',
+      backgroundColor: '#ffa500',
+    },
+    {
+      date: '2024-06-27',
+      backgroundColor: '#ffa500',
+    },
+    {
+      date: '2024-06-28',
+      backgroundColor: '#ffa500',
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
 
     }
   ];
@@ -179,6 +210,7 @@ export class PruebaCPage implements OnInit {
   julio = [
     {
       date: '2024-07-01',
+<<<<<<< HEAD
       backgroundColor: '#001d3d',
     },
     {
@@ -188,10 +220,22 @@ export class PruebaCPage implements OnInit {
     {
       date: '2024-07-03',
       backgroundColor: '#001d3d',
+=======
+      backgroundColor: '#ffa500',
+    },
+    {
+      date: '2024-07-02',
+      backgroundColor: '#ffa500',
+    },
+    {
+      date: '2024-07-03',
+      backgroundColor: '#ffa500',
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
     }
 
   ];
 
+<<<<<<< HEAD
   constructor() {
 addIcons({personCircle})
 
@@ -200,4 +244,9 @@ addIcons({personCircle})
   ngOnInit() {
   }
 
+=======
+  constructor() {}
+
+  ngOnInit() {}
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
 }

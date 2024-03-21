@@ -1,4 +1,5 @@
 <ion-header [translucent]="true">
+<<<<<<< HEAD
   <!-- Encabezado del componente -->
   <ion-toolbar>
     <!-- Barra de herramientas con el título "Calender" -->
@@ -12,10 +13,20 @@
   <!-- Contenido del componente -->
   <ion-segment>
     <!-- Selector de segmento para cambiar entre diferentes vistas -->
+=======
+  <ion-toolbar>
+    <ion-title>Calender</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment>
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
     <ion-segment-button value="Schedule">Schedule</ion-segment-button>
     <ion-segment-button value="Tasks">Tasks</ion-segment-button>
     <ion-segment-button value="Notes">Notes</ion-segment-button>
   </ion-segment>
+<<<<<<< HEAD
 
   <ion-grid>
     <!-- Cuadrícula de fechas -->
@@ -29,10 +40,21 @@
           class="marzo"></ion-datetime></ion-col>
       <ion-col><ion-datetime size="auto" presentation="date" value="2024-04" [highlightedDates]="abril"
           class="abril"></ion-datetime></ion-col>
+=======
+  
+  <ion-grid>
+    <ion-row>
+      
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-01" [highlightedDates]="enero" ></ion-datetime></ion-col>
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-02" [highlightedDates]="febrero"></ion-datetime></ion-col>
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-03" [highlightedDates]="marzo"></ion-datetime></ion-col>
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-04" [highlightedDates]="abril"></ion-datetime></ion-col>
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
 
     </ion-row>
 
     <ion-row>
+<<<<<<< HEAD
       <ion-col><ion-datetime size="auto" presentation="date" value="2024-05" [highlightedDates]="mayo"
           class="mayo"></ion-datetime></ion-col>
       <ion-col><ion-datetime size="auto" presentation="date" value="2024-06" [highlightedDates]="junio"
@@ -72,6 +94,22 @@
   <!-- Pie de página -->
   <ion-toolbar>
     <!-- Barra de herramientas que muestra información de derechos de autor -->
+=======
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-05" [highlightedDates]="mayo"></ion-datetime></ion-col>
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-06" [highlightedDates]="junio"></ion-datetime></ion-col> 
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-07" [highlightedDates]="julio"></ion-datetime></ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+
+ 
+
+  </ion-grid>
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar>
+>>>>>>> 45333109b4837f25a0410a338e097f7eaec58dbf
     <ion-title>©Todos los derechos reservados
       <br>
       21640010-Josue
