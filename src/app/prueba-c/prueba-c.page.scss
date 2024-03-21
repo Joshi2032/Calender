@@ -1,0 +1,82 @@
+.iconlo{
+  font-size: 36px;
+  color: #00b4d8 ;
+  right: 88px;
+}
+.enero{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+.febrero{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+.marzo{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+.abril{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+.mayo{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+.junio{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+.julio{
+    text-align: center;
+    align-items: center;
+    background-color: black; 
+}
+
+
+
+  .reinscripciones{
+    @extend .cuadrito;
+    background-color: #40BF1D; 
+  }
+  .inicioCurso{
+    @extend .cuadrito;
+    background-color: #B0F223; 
+  }
+  .reinscripcionesTardias{
+    @extend .cuadrito;
+    background-color: #FF1515; 
+  }
+  .ceremonias{
+    @extend .cuadrito;
+    background-color: #E4FF00; 
+  }
+  .fincurso{
+    @extend .cuadrito;
+    background-color: #FB6161; 
+  }
+  .cursosVerano{
+    @extend .cuadrito;
+    background-color: #001d3d; 
+  }
+  .suspension{
+    @extend .cuadrito;
+    background-color: #8C8585; 
+  }
+  .vacaciones{
+    @extend .cuadrito;
+    background-color: #484646; 
+  }
+
+  .cuadrito {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 4px; // Opcional, para bordes redondeados
+  }

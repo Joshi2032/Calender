@@ -1,0 +1,42 @@
+<!-- Componente de cabecera con transparencia -->
+<ion-header [translucent]="true">
+  <!-- Barra de herramientas -->
+  <ion-toolbar>
+    <!-- Contenedor para el logo -->
+    <div class="logo">
+      <!-- Imagen del logo, se espera que esté en la carpeta de activos -->
+      <img src="../assets/img/logo_transparent.png">
+    </div>
+
+    <!-- Cuadrícula para organizar elementos -->
+    <ion-grid>
+      <!-- Fila en la cuadrícula -->
+      <ion-row>
+        <!-- Columna para el enlace de ir al login -->
+        <ion-col> <a [routerLink]="['/v-email']">Ir al login</a> </ion-col>
+        <!-- Columna para el enlace de ir al calendario -->
+        <ion-col> <a [routerLink]="['/calender']">Ir al calendario</a> </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<!-- Contenido principal, ocupa toda la pantalla -->
+<ion-content [fullscreen]="true">
+  <ion-content>
+    <!-- Aquí iría el contenido principal de la página -->
+  </ion-content>
+</ion-content>
+
+<!-- Pie de página -->
+<ion-footer>
+  <ion-toolbar>
+    <!-- Título del pie de página -->
+    <ion-title>©Todos los derechos reservados
+      <br>
+      21640010-Josue
+      <br>
+      21640004-Pedro
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

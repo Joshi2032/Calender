@@ -1,0 +1,82 @@
+<ion-header [translucent]="true">
+  <!-- Encabezado del componente -->
+  <ion-toolbar>
+    <!-- Barra de herramientas con el título "Calender" -->
+    <ion-title>School Calendar
+      <ion-icon [routerLink]= "['/v-email']" name="person-circle" class="iconlo"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="Calender">
+  <!-- Contenido del componente -->
+  <ion-segment>
+    <!-- Selector de segmento para cambiar entre diferentes vistas -->
+    <ion-segment-button value="Schedule">Schedule</ion-segment-button>
+    <ion-segment-button value="Tasks">Tasks</ion-segment-button>
+    <ion-segment-button value="Notes">Notes</ion-segment-button>
+  </ion-segment>
+
+  <ion-grid>
+    <!-- Cuadrícula de fechas -->
+    <ion-row>
+      <!-- Filas de meses -->
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-01" [highlightedDates]="enero"
+          class="enero"></ion-datetime></ion-col>
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-02" [highlightedDates]="febrero"
+          class="febrero"></ion-datetime></ion-col>
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-03" [highlightedDates]="marzo"
+          class="marzo"></ion-datetime></ion-col>
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-04" [highlightedDates]="abril"
+          class="abril"></ion-datetime></ion-col>
+
+    </ion-row>
+
+    <ion-row>
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-05" [highlightedDates]="mayo"
+          class="mayo"></ion-datetime></ion-col>
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-06" [highlightedDates]="junio"
+          class="junio"></ion-datetime></ion-col>
+      <ion-col><ion-datetime size="auto" presentation="date" value="2024-07" [highlightedDates]="julio"
+          class="julio"></ion-datetime></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div>
+    <span class="cuadrito reinscripciones"></span> Reinscripciones
+  </div>
+  <div>
+    <span class="cuadrito inicioCurso"></span> Inicio del Curso
+  </div>
+  <div>
+    <span class="cuadrito reinscripcionesTardias"></span> Reinscripciones Tardías
+  </div>
+  <div>
+    <span class="cuadrito ceremonias"></span> Ceremonias
+  </div>
+  <div>
+    <span class="cuadrito fincurso"></span> Fin del Curso
+  </div>
+  <div>
+    <span class="cuadrito cursosVerano"></span> Cursos de Verano
+  </div>
+  <div>
+    <span class="cuadrito suspension"></span> Suspensión
+  </div>
+  <div>
+    <span class="cuadrito vacaciones"></span> Vacaciones
+  </div>
+</ion-content>
+
+<ion-footer>
+  <!-- Pie de página -->
+  <ion-toolbar>
+    <!-- Barra de herramientas que muestra información de derechos de autor -->
+    <ion-title>©Todos los derechos reservados
+      <br>
+      21640010-Josue
+      <br>
+      21640004-Pedro
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

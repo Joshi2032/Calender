@@ -24,3 +24,92 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+
+.card {
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px; // Ajusta el ancho máximo según sea necesario
+    padding: 20px;
+  
+    .card-content {
+      display: flex;
+      flex-direction: column;
+  
+      ion-input {
+        margin-bottom: 10px;
+      }
+  
+      ion-button {
+        margin-top: 20px;
+      }
+    }
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Opcional: ajusta la altura según sea necesario */
+  }
+  
+  .logo {
+    width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Esto mantendrá la relación de aspecto */
+  }
+
+
+.calendar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar-content ion-footer {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+}
+
+
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+*{
+  font-family: Roboto;
+}
+
+.logo{
+text-align: center;
+align-items: center;
+}
+
+.logo img{
+height: 120px;
+width: 120 px;
+}
+
+ion-fab {
+margin-top: var(--ion-safe-area-top, 0);
+}
+
+ion-fab {
+margin-bottom: var(--ion-safe-area-bottom, 0);
+}
+
+ion-title{
+text-align: center;
+color: white;
+}
+.calendarImages{
+height: auto;
+width: auto;
+}
