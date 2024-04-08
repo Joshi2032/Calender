@@ -44,6 +44,14 @@ export const routes: Routes = [
     path: 'prueba-c',
     loadComponent: () => import('./prueba-c/prueba-c.page').then( m => m.PruebaCPage)
   },
+  {
+    path: 'things-td',
+    loadComponent: () => import('./things-td/things-td.page').then( m => m.ThingsTDPage)
+  },
+  {
+    path: 'new-homework',
+    loadComponent: () => import('./new-homework/new-homework.page').then( m => m.NewHomeworkPage)
+  },
 ];
 
 /*import { Routes } from '@angular/router';
