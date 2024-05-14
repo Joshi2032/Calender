@@ -10,9 +10,10 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule],
 })
+
 export class PruebaCPage implements OnInit {
   
-  enero = [
+  escolar = [
     {
       date: '2024-01-22',
       textColor: '#ffffff',
@@ -32,10 +33,8 @@ export class PruebaCPage implements OnInit {
       date: '2024-01-29',
       textColor: '#ffffff',
       backgroundColor: '#B0F223',
-    }
-  ];
-
-  febrero = [
+    },
+// febrero
     {
       date: '2024-02-01',
       backgroundColor: '#FF1515',
@@ -61,11 +60,8 @@ export class PruebaCPage implements OnInit {
       textColor: '#ffffff',      
 
     },
-    
 
-  ];
-
-  marzo = [
+    // marzo
     {
       date: '2024-03-18',
       backgroundColor: '#8C8585',
@@ -96,9 +92,8 @@ export class PruebaCPage implements OnInit {
       backgroundColor: '#484646',
       textColor: '#ffffff',
     },
-  ];
 
-  abril = [
+    // abril
     {
       date: '2024-04-01',
       backgroundColor: '#484646',
@@ -123,16 +118,13 @@ export class PruebaCPage implements OnInit {
       date: '2024-04-05',
       backgroundColor: '#484646',
       textColor: '#ffffff',
-
     },
     {
       date: '2024-04-19',
       backgroundColor: '#E4FF00',
-
-    }
-  ];
-
-  mayo = [
+    },
+    
+    // mayo
     {
       date: '2024-05-01',
       backgroundColor: '#8C8585',
@@ -147,10 +139,9 @@ export class PruebaCPage implements OnInit {
       date: '2024-05-31',
       backgroundColor: '#FB6161',
       textColor: '#ffffff',      
-    }
-  ];
+    },
 
-  junio = [
+    // junio
     {
       date: '2024-06-24',
       backgroundColor: '#ffa500',
@@ -170,11 +161,9 @@ export class PruebaCPage implements OnInit {
     {
       date: '2024-06-28',
       backgroundColor: '#ffa500',
+    },
 
-    }
-  ];
-
-  julio = [
+    //julio
     {
       date: '2024-07-01',
       backgroundColor: '#ffa500',
@@ -187,8 +176,12 @@ export class PruebaCPage implements OnInit {
       date: '2024-07-03',
       backgroundColor: '#ffa500',
     }
-
   ];
+
+
+  
+
+  
 
   constructor() {}
 

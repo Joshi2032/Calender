@@ -5,30 +5,12 @@
 </ion-header>
 
 <ion-content>
-  <ion-segment>
-    <ion-segment-button value="Schedule">Schedule</ion-segment-button>
-    <ion-segment-button value="Tasks">Tasks</ion-segment-button>
-    <ion-segment-button value="Notes">Notes</ion-segment-button>
-  </ion-segment>
+ 
   
   <ion-grid>
     <ion-row>
-      
-      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-01" [highlightedDates]="enero" ></ion-datetime></ion-col>
-      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-02" [highlightedDates]="febrero"></ion-datetime></ion-col>
-      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-03" [highlightedDates]="marzo"></ion-datetime></ion-col>
-      <ion-col><ion-datetime size="auto" presentation="date" value="2024-04" [highlightedDates]="abril"></ion-datetime></ion-col>
-
+      <ion-col> <ion-datetime size="auto" presentation="date" value="2024-01" [highlightedDates]="escolar" ></ion-datetime></ion-col>
     </ion-row>
-
-    <ion-row>
-      <ion-col><ion-datetime size="auto" presentation="date" value="2024-05" [highlightedDates]="mayo"></ion-datetime></ion-col>
-      <ion-col><ion-datetime size="auto" presentation="date" value="2024-06" [highlightedDates]="junio"></ion-datetime></ion-col> 
-      <ion-col><ion-datetime size="auto" presentation="date" value="2024-07" [highlightedDates]="julio"></ion-datetime></ion-col>
-      <ion-col></ion-col>
-    </ion-row>
-
- 
 
   </ion-grid>
 </ion-content>

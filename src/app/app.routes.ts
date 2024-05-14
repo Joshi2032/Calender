@@ -52,6 +52,10 @@ export const routes: Routes = [
     path: 'new-homework',
     loadComponent: () => import('./new-homework/new-homework.page').then( m => m.NewHomeworkPage)
   },
+  {
+    path: 'login-p',
+    loadComponent: () => import('./login-p/login-p.page').then( m => m.LoginPPage)
+  },
 ];
 
 /*import { Routes } from '@angular/router';
