@@ -8,17 +8,17 @@
 
 <ion-content [fullscreen]="true">
   <ion-grid>
-    <ion-row>Welcom!</ion-row>
+    <ion-row><h1>Welcom!</h1></ion-row>
     <ion-row>This app is a school calendar</ion-row>
     <ion-row>
-      <ion-col><ion-button>Login</ion-button></ion-col>
-      <ion-col><ion-button>Sing Up</ion-button></ion-col>
+      <ion-col><ion-button [routerLink]="['/v-email']">Login</ion-button></ion-col>
+      <ion-col><ion-button [routerLink]="['/register']">Sing Up</ion-button></ion-col>
     </ion-row>
     <ion-row>Or via social media</ion-row>
     <ion-row>
-      <ion-col></ion-col>
-      <ion-col></ion-col>
-      <ion-col></ion-col>
+      <ion-col><ion-icon name="logo-google"></ion-icon></ion-col>
+      <ion-col><ion-icon name="logo-facebook"></ion-icon></ion-col>
+      <ion-col><ion-icon name="logo-apple"></ion-icon></ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
